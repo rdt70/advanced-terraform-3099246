@@ -57,7 +57,7 @@ resource "google_compute_instance" "nginx_instance" {
   }
 }
 
-## WEB1
+## WEB1 testsss
 resource "google_compute_instance" "web1" {
   name         = "web1"
   machine_type = "f1-micro"
